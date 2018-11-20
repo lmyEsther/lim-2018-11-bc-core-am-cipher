@@ -21,24 +21,40 @@
 
             <h2>¿Que deseas hacer?</h2>
 
-          <button type="button" name="buttonCifrar">Cifrar</button>
-          <button type="button" name="buttonDescifrar">Descifrar</button>
-          </div>
+          <button type="button" name="buttonCifrar" id='ventana-cifrar'>Cifrar</button>
+          <button type="button" name="buttonDescifrar" id='ventana-descifrar'>Descifrar</button>
+
         </main>
       </div>
 
-      <!--Pantalla De cifrar o Descifrar-->
+      <!--Pantalla de cifrar o descifrar-->
+      <div class="cifrar">
+        <article class="">
+          <label for="texto-cifrar">Ingresa tu texto para cifrar</label>
+          <textarea name="texto-cifrar" id="texto-cifrar" rows="8" cols="80"></textarea>
+
+          <label for="offset-cifrar">Ingresa el numero secreto</label>
+          <input type="number" name="offset-cifrar" id='offset-cifrar'>
+
+          <button type="button" name="buttonCifrar" id='btn-cifrar'>CIFRAR</button>
+
+        </article>
+      </div>
+      <div class="descifrar">
+        <article class="">
+          <label for="texto-descifrar">Ingresa tu texto para descifrar</label>
+          <textarea name="texto-descifrar" id="texto-descifrar" rows="8" cols="80"></textarea>
+
+          <label for="offset-descifrar">Ingresa el numero secreto</label>
+          <input type="number" name="offset-descifrar" id='offset-descifrar'>
+
+          <button type="button" name="buttonDescifrar" id='btn-descifrar'>DESCIFRAR</button>
+
+        </article>
+      </div>
 
 
-
-
-
-
-
-
-
-
-
+      
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
