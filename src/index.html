@@ -7,11 +7,11 @@
   </head>
   <body>
     <div id="root">
+      <header>
       <div class="contenedor">
-        <header>
-          <h1> PRODUCTO </h1>
-        </header>
+        <h1> PRODUCTO </h1>
       </div>
+      </header>
 
       <!--Pantalla principal-->
       <div class="descripcion">
@@ -28,33 +28,24 @@
       </div>
 
       <!--Pantalla de cifrar o descifrar-->
-      <div class="cifrar">
-        <article class="">
-          <label for="texto-cifrar">Ingresa tu texto para cifrar</label>
-          <textarea name="texto-cifrar" id="texto-cifrar" rows="8" cols="80"></textarea>
+      <div class="cifrar-descifrar">
+          <form>
+            <label for="texto-ingresado">Ingresa tu texto para cifrar</label>
+            <textarea name="texto-cifrar" id="texto-ingresado" rows="8" cols="80"></textarea>
 
-          <label for="offset-cifrar">Ingresa el numero secreto</label>
-          <input type="number" name="offset-cifrar" id='offset-cifrar'>
+            <label for="offset-ingresado">Ingresa el numero secreto</label>
+            <input type="number" name="offset-cifrar" id='offset-ingresado'>
 
-          <button type="button" name="buttonCifrar" id='btn-cifrar'>CIFRAR</button>
+            <button type="button" name="buttonCifrar" id='btn-cifrar'>CIFRAR</button>
+            <button type="button" name="buttonDescifrar" id='btn-descifrar'>DESCIFRAR</button>
 
-        </article>
-      </div>
-      <div class="descifrar">
-        <article class="">
-          <label for="texto-descifrar">Ingresa tu texto para descifrar</label>
-          <textarea name="texto-descifrar" id="texto-descifrar" rows="8" cols="80"></textarea>
+            <p>Tu texto es <span id="mostrar-texto"></span></p>
 
-          <label for="offset-descifrar">Ingresa el numero secreto</label>
-          <input type="number" name="offset-descifrar" id='offset-descifrar'>
-
-          <button type="button" name="buttonDescifrar" id='btn-descifrar'>DESCIFRAR</button>
-
-        </article>
+          </form>
       </div>
 
 
-      
+
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
