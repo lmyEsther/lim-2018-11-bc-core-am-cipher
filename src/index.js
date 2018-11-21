@@ -1,14 +1,3 @@
-//function letraCifrada (letra, desplazar) {
-// const nroLetra = letra.charCodeAt();
-//const nroDesplazado = (nroLetra-65+desplazar)%26 +65;
-
-  //const cifrada = String.fromCharCode(nroDesplazado);
-
-  //return cifrada;
-
-//}
- //console.log(letraCifrada('M',4));
-
  function palabraCifrada (string, offset) {
    let cifrada = '';
 
