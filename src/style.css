@@ -1,4 +1,61 @@
-body {
-    text-align:center;
+@import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
 
+html {
+  box-sizing: border-box;
+}
+* {
+  font-family: 'Chelsea Market', cursive;
+}
+
+body {
+    margin: 0;
+    text-align:center;
+    background-color:#D1C38D;
+
+}
+
+header {
+  display:block;
+}
+img.detective {
+  height: 100px;
+  width: 100px;
+  float:left;
+}
+
+.contenedor {
+    width: 800px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #9E7A21;
+    padding: 20px;
+    box-sizing: border-box;
+}
+label {
+  display: block;
+  font-size: 20px;
+}
+#contenido {
+  display:block;
+}
+#cifrar-descifrar {
+  display:none;
+  margin: 20px 0;
+}
+.botones {
+  display:inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#offset-ingresado {
+  width: 40px;
+  height: 20px;
+}
+
+#mostrado {
+  visibility: hidden;
 }
