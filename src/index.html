@@ -11,8 +11,12 @@ maximum-scale=1">
     <div id="root">
       <div class="contenedor">
       <header>
+        <div>
         <img src="img/detective.png" alt="detective" class="detective">
-        <h1>DESCUBRE AL ZODIACO</h1>
+        </div>
+        <div>
+        <h1>EL MISTERIO DEL ZODIACO</h1>
+      </div>
       </header>
 
       <!--Pantalla principal-->
@@ -20,10 +24,14 @@ maximum-scale=1">
       <main>
         <div id="contenido">
         <article class="">
-          <h2>Descripcion del producto</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3>Descubriendo el enigma</h3>
 
-          <h2>¿INVESTIGAMOS?</h2>
+          <p>En Diciembre de 1968, la oscuridad y la injusticia llegaron a la ciudad de California con la siniestra aparición de un asesino, al cual se le atribulleron 37 muertes. Fue mundialmente conocido como El Zodiaco, a través de una serie de cartas codificadas que envió al periódico local.</p>
+          <p>Para los detectives de la Epoca, se les hizo muy difícil desencryptar los mensajes que enviaba en sus cartas, era cuestion de tiempo para que este infame asesino cobrara una victima más. Dado que las claves para encontrarlo se hallaban en dichas cartas, se hacian de un gran equipo de investigadores y aun así, no conseguian detenerle porque ya era demasiado tarde.</p>
+          <p>A traves de los años, asesinos han querido copiar al malvado Zodiaco, por ende, se ha desarrollado este sistema para hacer mas eficáz el trabajo de los detectives en la desencriptacion de mensajes codificados. Si eres parte del equipo de investigadores,</p>
+
+          <h2> Apresúrate! No hay tiempo que perder!</h2>
+
         </article>
         <div class="botones">
           <button type="button" name="buttonCifrar" id='ventana-cifrar'>CIFRAR</button>
@@ -35,19 +43,20 @@ maximum-scale=1">
       <div id="cifrar-descifrar">
           <form>
             <div>
-            <label for="texto-ingresado">Ingresa tu texto</label>
-            <textarea name="texto-cifrar" id="texto-ingresado" rows="10" cols="60"></textarea>
+            <label for="texto-ingresado">Ingresa el mensaje</label>
+            <textarea name="texto-cifrar" id="texto-ingresado" rows="15" cols="70" required></textarea>
            </div>
            <div>
-            <label for="offset-ingresado">Ingresa el numero clave</label>
-            <input type="number" name="offset-cifrar" id='offset-ingresado'>
+            <label for="offset-ingresado">Ingresa el numero secreto</label>
+            <input type="number" name="offset-cifrar" id='offset-ingresado' required>
           </div>
           <div class="botones">
           <button type="button" name="buttonCifrar" id='btn-cifrar'>CIFRAR</button>
           <button type="button" name="buttonDescifrar" id='btn-descifrar'>DESCIFRAR</button>
-          <input type="button" value="VOLVER" onclick="location.reload()"/>
+          <input class="volver" type="button" value="VOLVER" onclick="location.reload()"/>
           </div>
         </form>
+
           <div id="mostrado">
             <h3>Tu texto es: <span id="mostrar-texto"></span></h3>
           </div>

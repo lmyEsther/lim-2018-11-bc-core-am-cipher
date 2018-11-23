@@ -15,27 +15,29 @@ body {
 
 header {
   display:block;
+  margin: 0 auto;
 }
 img.detective {
-  height: 100px;
-  width: 100px;
+  height: auto;
+  width: 120px;
   float:left;
+  display: inline-grid;
 }
 
 .contenedor {
-    width: 800px;
-    height: 500px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    width: 80%;
+    height: auto;
     background-color: #9E7A21;
-    padding: 20px;
+    padding: 1em 1em;
     box-sizing: border-box;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 30px;
 }
 label {
   display: block;
   font-size: 20px;
+
 }
 #contenido {
   display:block;
@@ -44,17 +46,45 @@ label {
   display:none;
   margin: 20px 0;
 }
-.botones {
+button, .volver {
   display:inline-block;
   margin-top: 20px;
   margin-bottom: 20px;
-
+  border: none;
+  background: #D1C38D;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  position: relative;
+  transition: all 500ms ease;
 }
+
 #offset-ingresado {
   width: 40px;
   height: 20px;
 }
 
+#texto-ingresado{
+  float:inherit;
+  width: 70%;
+  min-height: 35px;
+  outline: none;
+  resize: none;
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+}
 #mostrado {
   visibility: hidden;
+}
+
+@media only screen and (min-width: 480px){
+  h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 768px){
+  h1{
+    font-size: 40px;
+  }
 }

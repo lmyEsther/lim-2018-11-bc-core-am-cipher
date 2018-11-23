@@ -10,9 +10,8 @@ function clickCifrar (){
   const mostrado = document.getElementById("mostrado");
   mostrado.style.visibility="visible";
   mostrarText.innerHTML = cipher.encode(string.value, parseInt(offset.value));
-
-
 }
+
 function clickDescifrar (){
   const mostrarText = document.getElementById("mostrar-texto");
   const mostrado = document.getElementById("mostrado");
