@@ -11,11 +11,13 @@ body {
     margin: 0;
     text-align:center;
     background-color:#D1C38D;
+    background-image: url("https://vignette.wikia.nocookie.net/caseclosed/images/7/7e/Detective_Conan_Background.png/revision/latest?cb=20180508102844")
 }
 
 header {
   display:block;
   margin: 0 auto;
+  color:#B9CDFF;
 }
 img.detective {
   height: auto;
@@ -25,15 +27,18 @@ img.detective {
 }
 
 .contenedor {
-    width: 80%;
-    height: auto;
-    background-color: #9E7A21;
-    padding: 1em 1em;
+    width: 50%;
+    height: 90vh;
+    background-color: rgba(0,0,0,0.94);
+    padding: 2em 2em;
     box-sizing: border-box;
     position: relative;
     margin: 0px auto;
     margin-top: 30px;
+    color: #519BD5;
+    border-radius: 3px;
 }
+
 label {
   display: block;
   font-size: 20px;
@@ -41,23 +46,37 @@ label {
 }
 #contenido {
   display:block;
+
 }
+.instrucciones{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 #cifrar-descifrar {
   display:none;
   margin: 20px 0;
 }
 button, .volver {
-  display:inline-block;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: none;
-  background: #D1C38D;
-  color: black;
-  padding: 10px;
-  font-size: 20px;
-  border-radius: 10px;
-  position: relative;
-  transition: all 500ms ease;
+display:inline-block;
+border: none;
+background: #519BD5;
+color: #f2f2f2;
+padding: 10px;
+font-size: 20px;
+border-radius: 3px;
+position: relative;
+box-sizing: border-box;
+transition: all 500ms ease;
+margin-top:10px;
+
+}
+
+button:hover, .volver:hover {
+background: rgba(0,0,0,0);
+color: #3a7999;
+box-shadow: inset 0 0 0 3px #3a7999;
 }
 
 #offset-ingresado {
@@ -75,7 +94,11 @@ button, .volver {
   border-radius: 5px;
 }
 #mostrado {
-  visibility: hidden;
+  display:none;
+}
+
+h3{
+  font-style: italic;
 }
 
 @media only screen and (min-width: 480px){

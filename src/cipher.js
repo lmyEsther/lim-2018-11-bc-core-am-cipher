@@ -2,7 +2,7 @@ window.cipher = {
   // ...
   encode: (string, offset) => {
      let cifrada = '';
-     textoMayus = string.toUpperCase();
+     let textoMayus = string.toUpperCase();
 
      for (let i = 0; i <= textoMayus.length; i ++){
       const nroPalabra = textoMayus.charCodeAt(i);
@@ -11,7 +11,7 @@ window.cipher = {
       if (nroPalabra === 32){
         cifrada +=' ';
       } else {
-        cifrada +=String.fromCharCode(formula);
+        cifrada += String.fromCharCode(formula);
       }
      }
      return cifrada;
@@ -19,7 +19,7 @@ window.cipher = {
 
   decode: (string, offset) => {
     let descifrada = '';
-    textoMayus = string.toUpperCase();
+    let textoMayus = string.toUpperCase();
 
     for (let i = 0; i <= textoMayus.length; i ++){
      const nroPalabra = textoMayus.charCodeAt(i);
@@ -28,7 +28,7 @@ window.cipher = {
      if (nroPalabra === 32){
        descifrada +=' ';
      } else {
-       descifrada +=String.fromCharCode(formula);
+       descifrada += String.fromCharCode(formula);
      }
     }
     return descifrada;

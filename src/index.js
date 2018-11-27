@@ -1,26 +1,29 @@
-let string = document.getElementById("texto-ingresado");
-let offset = document.getElementById("offset-ingresado");
+let textIng = document.getElementById("texto-ingresado");
+let offsetIng = document.getElementById("offset-ingresado");
 let btnCifrar = document.getElementById("btn-cifrar");
 let btnDescifrar = document.getElementById("btn-descifrar");
 let vtnCifrar = document.getElementById("ventana-cifrar");
 let vtnDescifrar = document.getElementById("ventana-descifrar");
+let contenido = document.getElementById("contenido");
+let cifrarDescifrar = document.getElementById("cifrar-descifrar");
 
 function clickCifrar (){
-  const mostrarText = document.getElementById("mostrar-texto");
   const mostrado = document.getElementById("mostrado");
-  mostrado.style.visibility="visible";
-  mostrarText.innerHTML = cipher.encode(string.value, parseInt(offset.value));
+  const mostrarText = document.getElementById("mostrar-texto");
+
+  cifrarDescifrar.style.display= "none";
+  mostrado.style.display="block";
+  mostrarText.innerHTML = cipher.encode(textIng.value, parseInt(offsetIng.value));
 }
 
 function clickDescifrar (){
-  const mostrarText = document.getElementById("mostrar-texto");
   const mostrado = document.getElementById("mostrado");
-  mostrado.style.visibility="visible";
-  mostrarText.innerHTML = cipher.decode(string.value, parseInt(offset.value));
-}
+  const mostrarText = document.getElementById("mostrar-texto");
 
-let contenido = document.getElementById("contenido");
-let cifrarDescifrar = document.getElementById("cifrar-descifrar");
+  cifrarDescifrar.style.display= "none";
+  mostrado.style.display="block";
+  mostrarText.innerHTML= cipher.decode(textIng.value, parseInt(offsetIng.value));
+}
 
 vtnCifrar.addEventListener('click',() => {
   contenido.style.display= "none";
