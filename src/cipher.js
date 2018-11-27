@@ -1,5 +1,4 @@
 window.cipher = {
-  // ...
   encode: (string, offset) => {
      let cifrada ='';
      let textoMayus = string.toUpperCase();
@@ -16,7 +15,6 @@ window.cipher = {
      }
      return cifrada;
    },
-
   decode: (string, offset) => {
     let descifrada = '';
     let textoMayus = string.toUpperCase();
