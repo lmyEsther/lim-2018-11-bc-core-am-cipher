@@ -22,18 +22,18 @@ maximum-scale=1">
 
           <article class="instrucciones">
           <ul>
-            <li>Si tienes el mensaje de los detectives para encriptar, dale click en el botón cifrar</li>
-            <li>Si tienes el mensaje del criminal para desencriptar, dale click al botón descifrar</li>
-            <li>Recuerda, ademas del texto, debes tener el número secreto</li>
-            <li>Al finalizar, te mostrará el resultado y eso es lo que deberás enviar al personal correspondiente, para continuar con la investigación de este caso.</li>
+            <li>Para encriptar el mensaje del detective dale click en <span class="negrita">Cifrar</span></li>
+            <li>Desencripta el mensaje del criminal en <span class="negrita">Descifrar</span></li>
+            <li>Recuerda, debes tener el <b>número secreto</b></li>
+            <li>Al finalizar, envía el resultado al personal correspondiente.</li>
           </ul>
           </article>
           <h3> Apresúrate! No hay tiempo que perder!</h3>
 
 
         <div class="botones">
-          <button type="button" name="buttonCifrar" id='ventana-cifrar'>Cifrar</button>
-          <button type="button" name="buttonDescifrar" id='ventana-descifrar'>Descifrar</button>
+          <button type="button" name="ventanaCifrar" id="ventana-cifrar">Cifrar</button>
+          <button type="button" name="ventanaDescifrar" id="ventana-descifrar">Descifrar</button>
         </div>
         </div>
 
@@ -46,11 +46,11 @@ maximum-scale=1">
            </div>
            <div>
             <label for="offset-ingresado">Ingresa el numero secreto</label>
-            <input type="number" name="offset-cifrar" id='offset-ingresado' required min="1">
+            <input type="number" name="offset-cifrar" id="offset-ingresado" required min="1">
           </div>
           <div class="botones">
-          <button type="button" name="buttonCifrar" id='btn-cifrar'>Cifrar</button>
-          <button type="button" name="buttonDescifrar" id='btn-descifrar'>Descifrar</button>
+          <button type="button" name="buttonCifrar" id="btn-cifrar">Cifrar</button>
+          <button type="button" name="buttonDescifrar" id="btn-descifrar">Descifrar</button>
 
           </div>
         </form>
@@ -58,7 +58,7 @@ maximum-scale=1">
 
       <div id="mostrado">
         <h2></h2>
-        <h3>El mensaje quiere decir: </h3>
+        <h3>El mensaje es: </h3>
         <p><span id="mostrar-texto"></span></p>
         <p>Entrega este mensaje a los detectives para que lo detengan lo mas pronto posible</p>
 
