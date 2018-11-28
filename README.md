@@ -40,4 +40,8 @@ Este departamento necesita desencriptar y/o encriptar ciertos mensajes que algun
 
 ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
 
-Mi producto propone cifrar y descifrar esos mensajes en tiempo record para que asi el equipo de investigadores faciliten esta informacion a los detectives lo mas pronto posible para que atrapen al enemigo oportunamente.
+Mi producto propone cifrar y descifrar esos mensajes en tiempo record, para que asi el equipo de investigadores faciliten esta informacion a los detectives lo mas pronto posible para que atrapen al enemigo oportunamente.
+
+## Proceso a nivel de experiencia
+
+En primer lugar, 
