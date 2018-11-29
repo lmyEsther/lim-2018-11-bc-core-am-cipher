@@ -21,7 +21,7 @@ window.cipher = {
 
     for (let i = 0; i < textoMayus.length; i ++){
      const nroPalabra = textoMayus.charCodeAt(i);
-     const formula = (nroPalabra + 65 - (offset%26)) % 26 + 65;
+     const formula = (nroPalabra + 65 - (offset % 26)) % 26 + 65;
 
      if (nroPalabra === 32){
        descifrada +=' ';

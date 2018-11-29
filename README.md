@@ -15,33 +15,29 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-## Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
+## Definición del Producto
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de ejemplo:
+- Quiénes son los principales usuarios de producto?
 
-- Crear claves seguras para el email.
-- Encriptar/cifrar una tarjeta de crédito.
-- Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
-- Mensajería secreta para parejas.
+The Mystery of the Zodiac va dirigido a los integrantes y/o personal de un Departamento de Investigaciones y criptografia, el cual pertenece a una Comandancia de Policia y Detectives.
 
-## Definicion del Producto
+- Cuáles son los objetivos de estos usuarios en relación con tu producto?
 
-Quiénes son los principales usuarios de producto?
-
-Mi producto va dirigido a los integrantes y/o personal de un Departamento de Investigaciones y criptografia, el cual pertenece a una Comandancia de Policia y Detectives.
-
-Cuáles son los objetivos de estos usuarios en relación con tu producto?
-
-En el año 1968, en San Francisco, aparecio un asesino en serie que se hizo famoso mundialmente como El Zodiaco, el enviaba mensajes encriptados a su manera para que asi supieran saber donde lo iban a atrapar y contra quien iba a atentar. Hasta el sol de hoy, no se ha atrapado porque no han podido descifrar sus mensajes.
+En el año 1968, en San Francisco, apareció un asesino en serie que se hizo famoso mundialmente como El Zodiaco, el enviaba mensajes encriptados a su manera para que asi supieran donde lo iban a atrapar y contra quien iba a atentar. Hasta el sol de hoy, no se ha atrapado porque no han podido descifrar sus mensajes.
 En vista de esto, muchos asesinos alrededor del mundo han querido copiar la manera en que el Zodiaco escribia sus mensajes, de manera encriptada.
-Este departamento necesita desencriptar y/o encriptar ciertos mensajes que algunos asesinos en serie y/o criminales envian, a traves de medios de comunicacion de la region o por distintos canales de comunicacion o ya sea por alguna investigacion exhaustiva de algun detective. El objetivo es saber que dice dicho mensaje cifrado, y no solo saberlo, sino determinarlo lo mas pronto posible o en corto tiempo para poder atrapar al enemigo en cuestion. En muchos casos, el enemigo se ha salido con la suya porque han demorado mucho en descifrar el mensaje (manualmente) y ya cuando lo han descifrado es demasiado tarde y se ha cobrado una victima mas.
+Este departamento necesita desencriptar y/o encriptar ciertos mensajes que algunos asesinos en serie y/o criminales envian, a traves de medios de comunicacion de la region o por distintos canales de comunicacion, o ya sea por alguna investigacion exhaustiva de algun detective. El objetivo es saber que dice dicho mensaje cifrado, y no solo saberlo, sino determinarlo lo mas pronto posible o en corto tiempo para poder atrapar al enemigo en cuestion. En muchos casos, el enemigo se ha salido con la suya porque han demorado mucho en descifrar el mensaje (manualmente) y ya cuando lo han descifrado es demasiado tarde y se ha cobrado una victima mas.
 
-¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+- ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
 
-Mi producto propone cifrar y descifrar esos mensajes en tiempo record, para que asi el equipo de investigadores faciliten esta informacion a los detectives lo mas pronto posible para que atrapen al enemigo oportunamente.
+ The Mystery of the Zodiac propone cifrar y descifrar esos mensajes en tiempo record, para que asi el equipo de investigadores faciliten esta informacion a los detectives lo mas pronto posible para que atrapen al enemigo oportunamente.
 
-## Proceso a nivel de experiencia
+## Proceso a nivel de experiencia y diseño
 
-En primer lugar, 
+En primer lugar, se realizó el flujograma. De alli, se partio para hacer el prototipado el cual consto de varias revisiones y feedback con otras compañeras hasta que se llegó al prototipo final (tomando en cuenta sus consejos) que, si bien el producto final no es identico, se le parece bastante.
+
+El proyecto en total, se dividio en dos Sprint, cada uno con una duracion de una semana. En el primero, me enfoque en las funciones de cifrar y descifrar el texto, darle una interfaz sencilla donde el usuario pudiera ingresar los datos sin mucho diseño, el DOM, las funciones, html, en si me concentre mas que todo en la funcionalidad de mi pagina, que cuando clickeara en algun boton, este hiciera lo que le habia mandado a hacer. Luego, en el segundo sprint, me concentre en hacer testing, en dedicarme mas al diseño CSS, responsive design, readme, los requirimientos obligatorios para luego, si daba tiempo, enfocarme en la version del hacker edition.
+
+Las decisiones de diseño, fueron varias a lo largo del proyecto. Primero, como no se mucho de diseño ni de colores, decidi basarme en la paleta de colores que usa la pelicula que me inspiro a escoger el tema de mi proyecto (basada en hechos reales "El Zodiaco"). Esta paleta de colores venia dada por colores madera y beigh. Sin embargo, tomando en cuenta las muy valiosas opiniones y feedbacks de mis compañeras de squad y fuera de el, decidi seguir sus consejos y basarme en una paleta de colores que va del azul oscuro al azul claro con algunos matices de negro para lo que es la tematica, que es la investigacion. Luego, coloque un fondo caracteristico del tema, con una ciudad de noche y muchas letras, el cual calo bastante bien entre las opiniones de compañeras y allegados.
+
+En cuanto al contenido, en un principio habia colocado un texto muy largo contando la historia del zodiaco y las necesidades que habia que cubrir en el departamento de investigaciones, sin embargo, una vez mas llegaron al rescate mis compañeras y me hicieron saber que era un texto muy largo y aburrido a la vista y que al usuario le iba a cansar leer todo ese testamento. Por ello, decidi resumirlo todo dando pequeñas instrucciones claves de como funcionaba mi aplicacion y como podian cifrar o descifrar, nada mas. La ultima pantalla muestra un mensaje conteniendo el texto ya procesado.

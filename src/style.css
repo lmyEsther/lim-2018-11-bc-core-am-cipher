@@ -15,9 +15,11 @@ body {
 }
 
 header {
-  display:block;
-  margin: 0 auto;
   color:#B9CDFF;
+}
+
+h1{
+  margin:0 auto;
 }
 img.detective {
   height: auto;
@@ -33,7 +35,7 @@ img.detective {
     padding: 3em 3em;
     box-sizing: border-box;
     position: relative;
-    margin: 0px auto;
+    margin: 0 auto;
     margin-top: 30px;
     color: #519BD5;
     border-radius: 3px;
@@ -41,7 +43,7 @@ img.detective {
 
 label {
   display: block;
-  font-size: 20px;
+  font-size: 15px;
 
 }
 #contenido {
@@ -83,6 +85,7 @@ box-shadow: inset 0 0 0 3px #3a7999;
 #offset-ingresado {
   width: 40px;
   height: 20px;
+  border-radius: 5px;
 }
 
 #texto-ingresado{
@@ -91,7 +94,6 @@ box-shadow: inset 0 0 0 3px #3a7999;
   min-height: 35px;
   outline: none;
   resize: none;
-  border: 2px solid #f0f0f0;
   border-radius: 5px;
 }
 #mostrado {
@@ -101,6 +103,13 @@ box-shadow: inset 0 0 0 3px #3a7999;
 .negrita {
   font-weight: bolder;
   font-size: 20px;
+}
+
+input:valid, textarea:valid {
+  border: 3px solid green;
+}
+input:invalid, textarea:invalid {
+  border: 2px solid red;
 }
 
 @media only screen and (min-width: 480px){

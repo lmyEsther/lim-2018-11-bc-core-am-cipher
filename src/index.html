@@ -11,7 +11,7 @@ maximum-scale=1">
     <div id="root">
       <div class="contenedor">
       <header>
-        <h1>EL MISTERIO DEL ZODIACO</h1>
+        <h1>THE MYSTERY OF THE ZODIAC</h1>
       </header>
 
       <!--Pantalla principal-->
@@ -41,11 +41,10 @@ maximum-scale=1">
       <div id="cifrar-descifrar">
           <form>
             <div>
-            <label for="texto-ingresado">Ingresa el mensaje</label>
-            <textarea name="texto-cifrar" id="texto-ingresado" rows="15" cols="70" required></textarea>
+            <textarea name="texto-cifrar" id="texto-ingresado" rows="15" cols="70" placeholder="Ingresa el mensaje aquí" required></textarea>
             </div>
             <div>
-            <label for="offset-ingresado">Ingresa el numero secreto</label>
+            <label for="offset-ingresado">número secreto</label>
             <input type="number" name="offset-cifrar" id="offset-ingresado" required min="1">
             </div>
             <div class="botones">
@@ -56,6 +55,7 @@ maximum-scale=1">
         </form>
       </div>
 
+      <!--Pantalla de Mensaje Final-->
       <div id="mostrado">
         <h3>El mensaje es: </h3>
         <p><span id="mostrar-texto"></span></p>
