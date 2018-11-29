@@ -7,8 +7,10 @@
 body {
     margin: 0;
     text-align:center;
-    background-color:#D1C38D;
-    background-image: url("https://vignette.wikia.nocookie.net/caseclosed/images/7/7e/Detective_Conan_Background.png/revision/latest?cb=20180508102844")
+    background-image: url("https://images.unsplash.com/photo-1531278329486-539bf3bd6d5e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c22fab4464ff80aa905e5abb9f367731&auto=format&fit=crop&w=925&q=80");
+    background-size: cover;
+    background-position: center;
+
 }
 
 header {
@@ -17,7 +19,10 @@ header {
 
 h1{
   margin:0 auto;
+  font-size: 40px;
 }
+
+
 img.detective {
   height: auto;
   width: 120px;
@@ -26,8 +31,9 @@ img.detective {
 }
 
 .contenedor {
-    width: 50%;
-    height: 80vh;
+    max-width: 700px;
+    min-width: 200px;
+    height: 90vh;
     background-color: rgba(0,0,0,0.95);
     padding: 3em 3em;
     box-sizing: border-box;
@@ -41,15 +47,19 @@ img.detective {
 label {
   display: block;
   font-size: 15px;
-
 }
+
+#apresurate {
+  color: #F73A5C;
+}
+
 #contenido {
   display:block;
 
 }
 .instrucciones{
     text-align: justify;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 50px;
     line-height: 30pt;
 }
@@ -57,7 +67,16 @@ label {
 #cifrar-descifrar {
   display:none;
   margin: 20px 0;
+  margin-top: 40px;
 }
+
+.botones {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0
+}
+
 button, .volver {
 display:inline-block;
 border: none;
@@ -67,16 +86,15 @@ padding: 10px;
 font-size: 20px;
 border-radius: 3px;
 position: relative;
-box-sizing: border-box;
 transition: all 500ms ease;
-margin-top:40px;
-
+margin-top:50px;
 }
 
 button:hover, .volver:hover {
 background: rgba(0,0,0,0);
 color: #3a7999;
 box-shadow: inset 0 0 0 3px #3a7999;
+cursor:pointer;
 }
 
 #offset-ingresado {
@@ -86,20 +104,20 @@ box-shadow: inset 0 0 0 3px #3a7999;
 }
 
 #texto-ingresado{
-  float:inherit;
-  width: 70%;
+
+  width: 80%;
   min-height: 35px;
-  outline: none;
-  resize: none;
-  border-radius: 5px;
+  border-radius: 3px;
 }
+
 #mostrado {
+
   display:none;
+  margin: 50px auto;
 }
 
 .negrita {
   font-weight: bolder;
-  font-size: 20px;
 }
 
 input:valid, textarea:valid {
@@ -107,4 +125,55 @@ input:valid, textarea:valid {
 }
 input:invalid, textarea:invalid {
   border: 2px solid red;
+}
+
+@media screen and (max-width: 700px){
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  .contenedor {
+    width: 90%;
+    padding: 1em 2em;
+
+  }
+  #contenido {
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 420px){
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+  .contenedor {
+    width: 90%;
+    padding: 1em 1em;
+
+  }
+
+  main {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .instrucciones {
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 20pt;
+   }
+
+   button, .volver {
+     padding: 5px;
+     font-size: 18px;
+   }
 }
