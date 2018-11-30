@@ -48,7 +48,10 @@ El proyecto en total, se dividio en dos Sprint, cada uno con una duracion de una
 
 Las decisiones de diseño, fueron varias a lo largo del proyecto. Primero, como no se mucho de diseño ni de colores (no es mi fuerte), decidi basarme en la paleta de colores que usa la pelicula que me inspiro a escoger el tema de mi proyecto (basada en hechos reales "El Zodiaco"). Esta paleta de colores venia dada por colores madera y beigh.
 
-![Segunda Interfaz](src/pictures/Segunda_vista.png)
+![Segunda Interfaz][5]  ![Fondo poco aceptado][6]
+
+[5]: src/pictures/Segunda_vista.png
+[6]: src/pictures/Cambio_fondo.png
 
 Sin embargo, tomando en cuenta las muy valiosas opiniones y feedbacks de mis compañeras de squad y fuera de el, decidi seguir sus consejos y basarme en una paleta de colores que va del azul oscuro al azul claro con algunos matices de negro para lo que es la tematica, que es la investigacion. Luego, coloque un fondo caracteristico del tema, con una ciudad de noche y muchas letras, el cual fue cambiado tambien luego de un testeo con un coach (en este caso Daniela) y varios amigos, me sugirieron cambiarlo porque las letras del fondo mareaban un poco. Decidí cambiarlo por otro menos cargado.
 
