@@ -56,7 +56,7 @@ Sin embargo, tomando en cuenta las muy valiosas opiniones y feedbacks de mis com
 
 En cuanto al contenido, en un principio habia colocado un texto muy largo contando la historia del zodiaco y las necesidades que habia que cubrir en el departamento de investigaciones, sin embargo, una vez mas llegaron al rescate mis compañeras y me hicieron saber que era un texto muy largo y aburrido a la vista y que al usuario le iba a cansar leer todo ese testamento. Por ello, decidi resumirlo todo dando pequeñas instrucciones claves de como funcionaba mi aplicacion y como podian cifrar o descifrar, nada mas para que la experiencia de usuario fuese mas didactica y menos tediosa. La ultima pantalla muestra un mensaje conteniendo el texto ya procesado y un mensaje caracteristico del tema en cuestion que coloque (Apresurate, no hay tiempo que perder), tambien luego de un testeo.
 
-![Cifrar][1]  ![Cifrado][2]
+![Cifrar][3]  ![Cifrado][4]
 
-[1]: src/pictures/Cifrar.png
-[2]: src/pictures/Cifrado.png
+[3]: src/pictures/Cifrar.png
+[4]: src/pictures/Cifrado.png
