@@ -38,23 +38,23 @@ Este departamento necesita desencriptar y/o encriptar ciertos mensajes que algun
 En primer lugar, se realizó el flujograma. De alli, se partio para hacer el prototipado el cual consto de varias revisiones y feedback con otras compañeras sobre usabilidad, experiencia de usuario, hasta que se llegó al prototipo final (tomando en cuenta sus consejos) que, si bien el producto final no es identico, se le parece bastante.
 
 ![Flujograma][1] ![Prototipado][2]
-[1]:(pictures/Flujograma.jpg)
-[2]:(pictures/Prototipado.jpg)
+[1]: src/pictures/Flujograma.jpg
+[2]: src/pictures/Prototipado.jpg
 
 El proyecto en total, se dividio en dos Sprint, cada uno con una duracion de una semana. En el primero, me enfoque en hacer tareas pequeñas como por ejemplo las funciones de cifrar y descifrar una letra, luego una palabra y luego un texto completo; darle una interfaz sencilla donde el usuario pudiera ingresar los datos sin mucho diseño, el DOM, estructura html, en si me concentre mas que todo en la funcionalidad de mi pagina, para que cuando clickeara en algun boton, este hiciera lo que le habia mandado a hacer, por medio del DOM. Luego, en el segundo sprint, me concentre en hacer testing unitario, en dedicarme mas al diseño CSS, responsive design (el cual se me complico bastante), el readme, los requirimientos obligatorios para luego, si daba tiempo, enfocarme en la version hacker edition. Se utilizo la herramienta de papel bond y tablero canvas, dividiendolo por tareas generales, luego en tareas pequeñas y actualizando el tablero cada vez que terminaba alguna tarea, y si es que me bloqueaba en alguna tarea los coaches venian al rescate para apoyarme y aclarar mis dudas, lo cual agradezco muchisimo.
 
-![Primera Interfaz](pictures/Primera_vista.jpg)
+![Primera Interfaz](src/pictures/Primera_vista.jpg)
 
 Las decisiones de diseño, fueron varias a lo largo del proyecto. Primero, como no se mucho de diseño ni de colores (no es mi fuerte), decidi basarme en la paleta de colores que usa la pelicula que me inspiro a escoger el tema de mi proyecto (basada en hechos reales "El Zodiaco"). Esta paleta de colores venia dada por colores madera y beigh.
 
-![Segunda Interfaz](pictures/Segunda_vista.png)
+![Segunda Interfaz](src/pictures/Segunda_vista.png)
 
 Sin embargo, tomando en cuenta las muy valiosas opiniones y feedbacks de mis compañeras de squad y fuera de el, decidi seguir sus consejos y basarme en una paleta de colores que va del azul oscuro al azul claro con algunos matices de negro para lo que es la tematica, que es la investigacion. Luego, coloque un fondo caracteristico del tema, con una ciudad de noche y muchas letras, el cual fue cambiado tambien luego de un testeo con un coach (en este caso Daniela) y varios amigos, me sugirieron cambiarlo porque las letras del fondo mareaban un poco. Decidí cambiarlo por otro menos cargado.
 
-![Interfaz definitiva](pictures/Tercera_vista.png)
+![Interfaz definitiva](src/pictures/Tercera_vista.png)
 
 En cuanto al contenido, en un principio habia colocado un texto muy largo contando la historia del zodiaco y las necesidades que habia que cubrir en el departamento de investigaciones, sin embargo, una vez mas llegaron al rescate mis compañeras y me hicieron saber que era un texto muy largo y aburrido a la vista y que al usuario le iba a cansar leer todo ese testamento. Por ello, decidi resumirlo todo dando pequeñas instrucciones claves de como funcionaba mi aplicacion y como podian cifrar o descifrar, nada mas para que la experiencia de usuario fuese mas didactica y menos tediosa. La ultima pantalla muestra un mensaje conteniendo el texto ya procesado y un mensaje caracteristico del tema en cuestion que coloque (Apresurate, no hay tiempo que perder), tambien luego de un testeo.
 
 ![Cifrar][1] ![Cifrado][2]
-[1]: (pictures/Cifrar.png)
-[2]: (pictures/Cifrado.png)
+[1]: src/pictures/Cifrar.png
+[2]: src/pictures/Cifrado.png
