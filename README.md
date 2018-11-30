@@ -53,7 +53,7 @@ Las decisiones de diseño, fueron varias a lo largo del proyecto. Primero, como 
 [5]: src/pictures/Segunda_vista.png
 [6]: src/pictures/Cambio_fondo.png
 
-Sin embargo, tomando en cuenta las muy valiosas opiniones y feedbacks de mis compañeras de squad y fuera de el, decidi seguir sus consejos y basarme en una paleta de colores que va del azul oscuro al azul claro con algunos matices de negro para lo que es la tematica, que es la investigacion. Luego, coloque un fondo caracteristico del tema, con una ciudad de noche y muchas letras, el cual fue cambiado tambien luego de un testeo con un coach (en este caso Daniela) y varios amigos, me sugirieron cambiarlo porque las letras del fondo mareaban un poco. Decidí cambiarlo por otro menos cargado.
+Sin embargo, tomando en cuenta las muy valiosas opiniones y feedbacks de mis compañeras de squad y fuera de el, decidi seguir sus consejos y basarme en una paleta de colores que va del azul oscuro al azul claro con algunos matices de negro para lo que es la tematica, que es la investigacion. Luego, coloque un fondo caracteristico del tema, con una ciudad de noche y muchas letras, el cual fue cambiado tambien luego de un testeo con un coach (en este caso, Daniela) y varios amigos, me sugirieron cambiarlo porque las letras del fondo mareaban un poco. A pesar, de que a mi, particularmente,  este background me gustaba muchisimo, decidí cambiarlo por otro menos cargado; debido a que no es lo que a mi me guste o me parezca mejor, es lo que al usuario en general le guste mas y haga mejor su experiencia visual, de usabilidad y en general. De modo que, asi que quedo el definitivo.
 
 ![Interfaz definitiva](src/pictures/Ultima_vista.png)
 
