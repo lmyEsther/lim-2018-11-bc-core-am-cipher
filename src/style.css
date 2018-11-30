@@ -59,22 +59,22 @@ label {
 }
 .instrucciones{
     text-align: justify;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    line-height: 30pt;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    line-height: 35pt;
 }
 
 #cifrar-descifrar {
   display:none;
-  margin: 20px 0;
-  margin-top: 20px;
+  margin: 40px 0;
+  margin-bottom: 20px;
 }
 
 .botones {
   position: absolute;
-  bottom: 30px;
+  bottom: 60px;
   left: 0;
-  right: 0
+  right: 0;
 }
 
 button, .volver {
@@ -143,11 +143,11 @@ input:invalid, textarea:invalid {
   .instrucciones {
     text-align: justify;
     margin-top: 40px;
-    line-height: 20pt;
+    line-height: 25pt;
    }
 
   #contenido {
-    font-size: 14px;
+    font-size: 15px;
   }
 
 }
@@ -179,11 +179,16 @@ input:invalid, textarea:invalid {
     text-align: justify;
     margin-top: 50px;
     margin-bottom: 30px;
-    line-height: 20pt;
+    line-height: 22pt;
    }
 
    button, .volver {
      padding: 5px;
      font-size: 18px;
    }
+   .botones {
+     position: absolute;
+     bottom: 20px;
+     left: 0;
+     right: 0;
 }
