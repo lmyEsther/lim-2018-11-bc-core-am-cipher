@@ -23,14 +23,6 @@ h1{
   font-size: 40px;
 }
 
-
-img.detective {
-  height: auto;
-  width: 120px;
-  float:left;
-  display: inline-grid;
-}
-
 .contenedor {
     max-width: 700px;
     min-width: 200px;
@@ -43,6 +35,10 @@ img.detective {
     margin-top: 30px;
     color: #519BD5;
     border-radius: 3px;
+}
+
+section div ul {
+  list-style: none;
 }
 
 label {
@@ -136,6 +132,7 @@ input:invalid, textarea:invalid {
 
 .fas {
   font-size: 20px;
+  margin: 10px;
 }
 
 @media screen and (max-width: 700px){
