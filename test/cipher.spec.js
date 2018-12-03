@@ -10,8 +10,8 @@ describe('cipher', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
 
-    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
-      assert.equal(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ '),'HIJKLMNOPQRSTUVWXYZABCDEFG ');
+    it('debería retornar "SEGJ segj 5442 *)/" para "AMOR amor 1008 !/&" con offset 564', () => {
+      assert.equal(cipher.encode(564, 'AMOR amor 1008 !/&'),'SEGJ segj 5442 *)/');
     });
   });
 
@@ -21,8 +21,8 @@ describe('cipher', () => {
       assert.equal(typeof cipher.decode, 'function');
     });
 
-    it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', () => {
-      assert.equal(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG '),'ABCDEFGHIJKLMNOPQRSTUVWXYZ ');
+    it('debería retornar "AMOR amor 1008 !/&" para "SEGJ segj 5442 *)/" con offset 564', () => {
+      assert.equal(cipher.decode(564, 'SEGJ segj 5442 *)/'),'AMOR amor 1008 !/&');
     });
   });
 
