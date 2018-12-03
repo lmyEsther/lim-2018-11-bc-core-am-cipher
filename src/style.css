@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
 
+
 * {
-  font-family: 'Chelsea Market', cursive;
+  font-family: 'Chelsea Market';
 }
 
 body {
@@ -59,10 +60,12 @@ label {
 }
 .instrucciones{
     text-align: justify;
-    margin-top: 90px;
+    margin-top: 70px;
     margin-bottom: 40px;
     line-height: 35pt;
+    font-weight: normal;
 }
+
 
 #cifrar-descifrar {
   display:none;
@@ -111,9 +114,13 @@ cursor:pointer;
 }
 
 #mostrado {
-
   display:none;
   margin: 50px auto;
+}
+
+#mostrar-texto {
+  font-size: 25px;
+  color:#B9CDFF
 }
 
 .negrita {
@@ -125,6 +132,10 @@ input:valid, textarea:valid {
 }
 input:invalid, textarea:invalid {
   border: 2px solid red;
+}
+
+.fas {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 700px){
@@ -154,11 +165,11 @@ input:invalid, textarea:invalid {
 
 @media screen and (max-width: 420px){
   h1 {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
   .contenedor {
     width: 90%;
@@ -167,7 +178,7 @@ input:invalid, textarea:invalid {
   }
 
   main {
-    font-size: 14px;
+    font-size: 15px;
     margin: 0 auto;
   }
 
@@ -183,12 +194,12 @@ input:invalid, textarea:invalid {
    }
 
    button, .volver {
-     padding: 5px;
+     padding: 10px;
      font-size: 18px;
    }
    .botones {
      position: absolute;
-     bottom: 20px;
+     bottom: 30px;
      left: 0;
      right: 0;
 }

@@ -6,21 +6,12 @@ Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Ca
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
-
-- La letra A se cifra como D.
-- La palabra CASA se cifra como FDVD.
-- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
-
 
 ## Definición del Producto
 
 - Quiénes son los principales usuarios de producto?
 
-The Mystery of the Zodiac va dirigido a los integrantes y/o personal de un Departamento de Investigaciones y criptografia, el cual pertenece a una Comandancia de Policia y Detectives.
+The Mystery of the Zodiac va dirigido a los integrantes y/o personal de un Departamento de criptografia, el cual pertenece a una Comandancia de Policia y Detectives.
 
 - Cuáles son los objetivos de estos usuarios en relación con tu producto?
 
@@ -31,11 +22,11 @@ Este departamento necesita desencriptar y/o encriptar ciertos mensajes que algun
 
 - ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
 
- The Mystery of the Zodiac propone cifrar y descifrar esos mensajes en tiempo record, para que asi el equipo de investigadores faciliten esta informacion a los detectives lo mas pronto posible para que atrapen al enemigo oportunamente.
+The Mystery of the Zodiac propone cifrar y descifrar esos mensajes en tiempo record, para que asi el equipo de investigadores faciliten esta informacion a los detectives lo mas pronto posible para que atrapen al enemigo oportunamente.
 
 ### Proceso a nivel de experiencia y diseño
 
-En primer lugar, se realizó el flujograma. De alli, se partio para hacer el prototipado el cual consto de varias revisiones y feedback con otras compañeras sobre usabilidad, experiencia de usuario, hasta que se llegó al prototipo final (tomando en cuenta sus consejos) que, si bien el producto final no es identico, se le parece bastante.
+En primer lugar, se realizó el flujograma de la aplicación. De alli se partio para hacer el prototipado, el cual consto de varias revisiones y feedback con otras compañeras sobre usabilidad, experiencia de usuario, hasta que se llegó al prototipo final (tomando en cuenta sus consejos) que, si bien el producto final no es identico, se le parece bastante.
 
 ![Flujograma][1]  ![Prototipado][2]
 

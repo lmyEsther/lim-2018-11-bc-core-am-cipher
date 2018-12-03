@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,
-maximum-scale=1">
     <title>Caesar Cipher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -16,18 +18,18 @@ maximum-scale=1">
 
       <!--Pantalla principal-->
 
-      <main>
+      <section>
         <div id="contenido">
-        <h3>Departamento de Investigaciones y Criptografía</h3>
+        <h3>Departamento de Criptografía</h3>
 
-          <article class="instrucciones">
-          <ul>
-            <li>Para encriptar el mensaje del detective dale click en <span class="negrita">Cifrar</span></li>
-            <li>Desencripta el mensaje del criminal en <span class="negrita">Descifrar</span></li>
-            <li>Recuerda, debes tener el <span class="negrita">número secreto</span></li>
-            <li>Al finalizar, envía el resultado al personal correspondiente.</li>
-          </ul>
-        </article>
+          <div class="instrucciones">
+          <ol>
+            <li><i class="fas fa-lock"></i> Para encriptar el mensaje del detective dale click en <span class="negrita">Cifrar</span></li>
+            <li><i class="fas fa-unlock-alt"></i> Desencripta el mensaje del criminal en <span class="negrita">Descifrar</span></li>
+            <li><i class="fas fa-sort-numeric-up"></i> Recuerda, debes tener el <span class="negrita">número secreto</span></li>
+            <li><i class="fas fa-shield-alt"></i> Al finalizar, envía el resultado al personal correspondiente.</li>
+          </ol>
+          </div>
 
         <div class="botones">
           <button type="button" name="ventanaCifrar" id="ventana-cifrar">Cifrar</button>
@@ -46,23 +48,24 @@ maximum-scale=1">
             <input type="number" name="offset-cifrar" id="offset-ingresado" required min="1">
             </div>
             <div class="botones">
-          <button type="button" name="buttonCifrar" id="btn-cifrar">Cifrar</button>
-          <button type="button" name="buttonDescifrar" id="btn-descifrar">Descifrar</button>
-
+            <button type="button" name="buttonCifrar" id="btn-cifrar">Cifrar</button>
+            <button type="button" name="buttonDescifrar" id="btn-descifrar">Descifrar</button>
             </div>
-        </form>
+
+          </form>
       </div>
 
       <!--Pantalla de Mensaje Final-->
+
       <div id="mostrado">
-        <h3>El mensaje es: </h3>
-        <p><span id="mostrar-texto"></span></p>
+
         <p>Entrega este mensaje a los detectives para que lo detengan lo mas pronto posible</p>
+        <p><span id="mostrar-texto"></span></p>
         <h3 id="apresurate"> Apresúrate! No hay tiempo que perder!</h3>
         <input class="volver" type="button" value="Volver" onclick="location.reload()"/>
 
       </div>
-      </main>
+    </section>
 
     </div>
   </div>
