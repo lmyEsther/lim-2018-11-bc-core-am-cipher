@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
 
-
 * {
   font-family: 'Chelsea Market';
 }
@@ -46,10 +45,6 @@ label {
   font-size: 15px;
 }
 
-#apresurate {
-  color: #F73A5C;
-}
-
 #contenido {
   display:block;
 
@@ -62,6 +57,14 @@ label {
     font-weight: normal;
 }
 
+.fas {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.negrita {
+  font-weight: bolder;
+}
 
 #cifrar-descifrar {
   display:none;
@@ -97,8 +100,8 @@ cursor:pointer;
 }
 
 #offset-ingresado {
-  width: 40px;
-  height: 20px;
+  width: 50px;
+  height: 30px;
   border-radius: 5px;
 }
 
@@ -119,8 +122,8 @@ cursor:pointer;
   color:#B9CDFF
 }
 
-.negrita {
-  font-weight: bolder;
+#apresurate {
+  color: #F73A5C;
 }
 
 input:valid, textarea:valid {
@@ -130,10 +133,6 @@ input:invalid, textarea:invalid {
   border: 2px solid red;
 }
 
-.fas {
-  font-size: 20px;
-  margin: 10px;
-}
 
 @media screen and (max-width: 700px){
   h1 {
