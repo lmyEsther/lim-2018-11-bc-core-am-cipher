@@ -1,228 +1,217 @@
-@import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
-
-* {
-  font-family: 'Chelsea Market';
-}
-
-body {
-    margin: 0;
-    text-align:center;
-    background-image: url("https://images.unsplash.com/photo-1531278329486-539bf3bd6d5e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c22fab4464ff80aa905e5abb9f367731&auto=format&fit=crop&w=925&q=80");
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-}
-
-header {
-  color:#B9CDFF;
-}
-
-h1{
-  margin:0 auto;
-  font-size: 40px;
-}
-
-.contenedor {
-    max-width: 700px;
-    min-width: 200px;
-    height: 90vh;
-    background-color: rgba(0,0,0,0.90);
-    padding: 3em 3em;
-    box-sizing: border-box;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 30px;
-    color: #519BD5;
-    border-radius: 3px;
-}
-
-section div ul {
-  list-style: none;
-}
-
-label {
-  display: block;
-  font-size: 15px;
-}
-
-#contenido {
-  display:block;
-
-}
-.instrucciones{
-    text-align: justify;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    line-height: 35pt;
-    font-weight: normal;
-}
-
-.fas {
-  font-size: 20px;
-  margin: 10px;
-}
-
-.negrita {
-  font-weight: bolder;
-}
-
-#cifrar-descifrar {
-  display:none;
-  margin: 40px 0;
-  margin-bottom: 20px;
-}
-
-.botones {
-  position: absolute;
-  bottom: 60px;
-  left: 0;
-  right: 0;
-}
-
-button, .volver {
-display:inline-block;
-border: none;
-background: #519BD5;
-color: #f2f2f2;
-padding: 10px;
-font-size: 20px;
-border-radius: 3px;
-position: relative;
-transition: all 500ms ease;
-margin-top:50px;
-}
-
-button:hover, .volver:hover {
-background: rgba(0,0,0,0);
-color: #3a7999;
-box-shadow: inset 0 0 0 3px #3a7999;
-cursor:pointer;
-}
-
-#offset-ingresado {
-  width: 50px;
-  height: 30px;
-  border-radius: 5px;
-}
-
-#texto-ingresado{
-
-  width: 70%;
-  min-height: 35px;
-  border-radius: 3px;
-}
-
-#mostrado {
-  display:none;
-  margin: 50px auto;
-}
-
-#mostrar-texto {
-  font-size: 25px;
-  color:#B9CDFF
-}
-
-#apresurate {
-  color: #F73A5C;
-}
-
-input:valid, textarea:valid {
-  border: 3px solid green;
-}
-input:invalid, textarea:invalid {
-  border: 2px solid red;
-}
-
-
-@media screen and (max-width: 700px){
-  h1 {
-    font-size: 35px;
-  }
-
-  h3 {
-    font-size: 20px;
-  }
-  .contenedor {
-    width: 90%;
-    padding: 1em 2em;
-
-  }
-  .instrucciones {
-    text-align: justify;
-    margin-top: 40px;
-    line-height: 25pt;
-   }
-
-  #contenido {
-    font-size: 15px;
-  }
-
-}
-
-@media screen and (max-width: 420px){
-  h1 {
-    font-size: 26px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-  .contenedor {
-    width: 90%;
-    padding: 1em 1em;
-
-  }
-
-  main {
-    font-size: 15px;
-    margin: 0 auto;
-  }
-
-  #texto-ingresado {
-    width: 80%;
-  }
-
-  .instrucciones {
-    text-align: justify;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    line-height: 20pt;
-   }
-
-   button, .volver {
-     padding: 10px;
-     font-size: 16px;
-   }
-
-   .botones {
-     position: absolute;
-     bottom: 30px;
-     left: 0;
-     right: 0;
-}
-
-@media screen and (max-width: 320px) {
-
-  h3 {
-    font-size: 16px;
-  }
-
-  .instrucciones {
-    text-align: justify;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    line-height: 16pt;
-   }
-
-   button, .volver {
-     padding: 8px;
-     font-size: 14px;
-   }
-
-   .botones {
-     position: absolute;
-     bottom: 10px;
-     left: 0;
-     right: 0;
-  }
-}
+    @import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
+    * {
+        font-family: 'Chelsea Market';
+    }
+    
+    body {
+        margin: 0;
+        text-align: center;
+        background-image: url("https://images.unsplash.com/photo-1531278329486-539bf3bd6d5e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c22fab4464ff80aa905e5abb9f367731&auto=format&fit=crop&w=925&q=80");
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
+    }
+    
+    header {
+        color: #B9CDFF;
+    }
+    
+    h1 {
+        margin: 0 auto;
+        font-size: 40px;
+    }
+    
+    .contenedor {
+        max-width: 700px;
+        min-width: 200px;
+        height: 90vh;
+        background-color: rgba(0, 0, 0, 0.90);
+        padding: 3em 3em;
+        box-sizing: border-box;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 30px;
+        color: #519BD5;
+        border-radius: 3px;
+    }
+    
+    section div ul {
+        list-style: none;
+    }
+    
+    label {
+        display: block;
+        font-size: 15px;
+    }
+    
+    #contenido {
+        display: block;
+    }
+    
+    .instrucciones {
+        text-align: justify;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        line-height: 35pt;
+        font-weight: normal;
+    }
+    
+    .fas {
+        font-size: 20px;
+        margin: 10px;
+    }
+    
+    .negrita {
+        font-weight: bolder;
+    }
+    
+    #cifrar-descifrar {
+        display: none;
+        margin: 40px 0;
+        margin-bottom: 20px;
+    }
+    
+    .botones {
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+        right: 0;
+    }
+    
+    button,
+    .volver {
+        display: inline-block;
+        border: none;
+        background: #519BD5;
+        color: #f2f2f2;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 3px;
+        position: relative;
+        transition: all 500ms ease;
+        margin-top: 50px;
+    }
+    
+    button:hover,
+    .volver:hover {
+        background: rgba(0, 0, 0, 0);
+        color: #3a7999;
+        box-shadow: inset 0 0 0 3px #3a7999;
+        cursor: pointer;
+    }
+    
+    #offset-ingresado {
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    
+    #texto-ingresado {
+        width: 70%;
+        min-height: 35px;
+        border-radius: 3px;
+    }
+    
+    #mostrado {
+        display: none;
+        margin: 50px auto;
+    }
+    
+    #mostrar-texto {
+        font-size: 25px;
+        color: #B9CDFF
+    }
+    
+    #apresurate {
+        color: #F73A5C;
+    }
+    
+    input:valid,
+    textarea:valid {
+        border: 3px solid green;
+    }
+    
+    input:invalid,
+    textarea:invalid {
+        border: 2px solid red;
+    }
+    
+    @media screen and (max-width: 700px) {
+        h1 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        .contenedor {
+            width: 90%;
+            padding: 1em 2em;
+        }
+        .instrucciones {
+            text-align: justify;
+            margin-top: 40px;
+            line-height: 25pt;
+        }
+        #contenido {
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 420px) {
+        h1 {
+            font-size: 26px;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        .contenedor {
+            width: 90%;
+            padding: 1em 1em;
+        }
+        main {
+            font-size: 15px;
+            margin: 0 auto;
+        }
+        #texto-ingresado {
+            width: 80%;
+        }
+        .instrucciones {
+            text-align: justify;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            line-height: 20pt;
+        }
+        button,
+        .volver {
+            padding: 10px;
+            font-size: 16px;
+        }
+        .botones {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            right: 0;
+        }
+        @media screen and (max-width: 320px) {
+            h3 {
+                font-size: 16px;
+            }
+            .instrucciones {
+                text-align: justify;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                line-height: 16pt;
+            }
+            button,
+            .volver {
+                padding: 8px;
+                font-size: 14px;
+            }
+            .botones {
+                position: absolute;
+                bottom: 10px;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
